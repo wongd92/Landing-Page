@@ -6,12 +6,13 @@ body {
     flex-direction: column;
 }
 
+/* Header Section (Part 1 of 4) */
 .header {
-    height: 400px;
     background: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .header-container {
@@ -23,6 +24,7 @@ body {
 
 .header-logo {
     font-size: 24px;
+    font-weight: bold;
     color: #F9FAF8;
     margin: 0px;
 }
@@ -79,9 +81,37 @@ button {
     font-weight: bold;
 }
 
+/* Body Information Section (Part 2 of 4)*/
 
+.body {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
+.title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 36px;
+}
 
+.blank-sq {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 8px;
+}
 
+.icon-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+
+.icon {
+    max-width: 150px;
+}
 
 
