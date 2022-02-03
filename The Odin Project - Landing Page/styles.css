@@ -6,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-/* Header Section (Part 1 of 4) */
+/* Header Section (Part 1 of 5) */
 .header {
     background: #1F2937;
     display: flex;
@@ -81,7 +81,7 @@ button {
     font-weight: bold;
 }
 
-/* Body Information Section (Part 2 of 4)*/
+/* Body Information Section (Part 2 of 5)*/
 
 .body {
     text-align: center;
@@ -114,4 +114,28 @@ button {
     max-width: 150px;
 }
 
+/* Quote Section (Part 3 of 5) */
 
+.quote-body {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font: italic lighter 36px Roboto, sans-serif;
+    width: 850px;
+    padding-top: 50px;
+  
+}
+
+.name {
+    padding-left: 525px;
+    font-size: 18px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* Sign Up Section (Part 4 of 5) */
