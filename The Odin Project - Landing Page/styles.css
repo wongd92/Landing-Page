@@ -55,7 +55,7 @@ a, .placeholder, .text {
     color: #E5E7EB;
 }
 
-h2 {
+h2, h3 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
@@ -139,3 +139,40 @@ button {
 }
 
 /* Sign Up Section (Part 4 of 5) */
+
+.ad-quote {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.ad-text {
+    display: flex;
+    justify-content: center;
+}
+
+.button2 {
+    display: flex;
+    border: 3px solid #E5E7EB;
+    border-radius: 8px;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.container {
+    width: 1000px;
+    background: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+    border-radius: 8px;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+}
