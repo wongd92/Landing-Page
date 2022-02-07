@@ -125,10 +125,9 @@ button {
 }
 
 .quote {
-    font: italic lighter 36px Roboto, sans-serif;
+    font: italic 36px Roboto, sans-serif;
     width: 850px;
     padding-top: 50px;
-  
 }
 
 .name {
@@ -175,4 +174,14 @@ h3 {
     font-size: 24px;
     padding: 0px;
     margin: 0px;
+}
+
+/* Footer Section (Part 5 of 5) */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+    font-weight: bold;
 }
